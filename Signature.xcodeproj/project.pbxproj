@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03668BCB15916DEF00C4F4BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03668BCA15916DEF00C4F4BC /* UIKit.framework */; };
+		03668BCD15916DEF00C4F4BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03668BCC15916DEF00C4F4BC /* Foundation.framework */; };
+		03668BCF15916DEF00C4F4BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03668BCE15916DEF00C4F4BC /* CoreGraphics.framework */; };
+		03668BD515916DEF00C4F4BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03668BD315916DEF00C4F4BC /* InfoPlist.strings */; };
+		03668BD715916DEF00C4F4BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03668BD615916DEF00C4F4BC /* main.m */; };
+		03668BDB15916DEF00C4F4BC /* SigAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03668BDA15916DEF00C4F4BC /* SigAppDelegate.m */; };
+		03668BDE15916DEF00C4F4BC /* SigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03668BDD15916DEF00C4F4BC /* SigViewController.m */; };
+		03668BE115916DEF00C4F4BC /* SigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03668BDF15916DEF00C4F4BC /* SigViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03668BC615916DEF00C4F4BC /* Signature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03668BCA15916DEF00C4F4BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03668BCC15916DEF00C4F4BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03668BCE15916DEF00C4F4BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03668BD215916DEF00C4F4BC /* Signature-Info.plist */ = {isa = PBXFileReference; path = "Signature-Info.plist"; sourceTree = "<group>"; };
+		03668BD415916DEF00C4F4BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03668BD615916DEF00C4F4BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03668BD815916DEF00C4F4BC /* Signature-Prefix.pch */ = {isa = PBXFileReference; path = "Signature-Prefix.pch"; sourceTree = "<group>"; };
+		03668BD915916DEF00C4F4BC /* SigAppDelegate.h */ = {isa = PBXFileReference; path = SigAppDelegate.h; sourceTree = "<group>"; };
+		03668BDA15916DEF00C4F4BC /* SigAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SigAppDelegate.m; sourceTree = "<group>"; };
+		03668BDC15916DEF00C4F4BC /* SigViewController.h */ = {isa = PBXFileReference; path = SigViewController.h; sourceTree = "<group>"; };
+		03668BDD15916DEF00C4F4BC /* SigViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SigViewController.m; sourceTree = "<group>"; };
+		03668BE015916DEF00C4F4BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SigViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03668BC315916DEE00C4F4BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03668BCB15916DEF00C4F4BC /* UIKit.framework in Frameworks */,
+				03668BCD15916DEF00C4F4BC /* Foundation.framework in Frameworks */,
+				03668BCF15916DEF00C4F4BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03668BBB15916DEE00C4F4BC = {
+			isa = PBXGroup;
+			children = (
+				03668BD015916DEF00C4F4BC /* Signature */,
+				03668BC915916DEF00C4F4BC /* Frameworks */,
+				03668BC715916DEF00C4F4BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03668BC715916DEF00C4F4BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03668BC615916DEF00C4F4BC /* Signature.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03668BC915916DEF00C4F4BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03668BCA15916DEF00C4F4BC /* UIKit.framework */,
+				03668BCC15916DEF00C4F4BC /* Foundation.framework */,
+				03668BCE15916DEF00C4F4BC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03668BD015916DEF00C4F4BC /* Signature */ = {
+			isa = PBXGroup;
+			children = (
+				03668BD915916DEF00C4F4BC /* SigAppDelegate.h */,
+				03668BDA15916DEF00C4F4BC /* SigAppDelegate.m */,
+				03668BDC15916DEF00C4F4BC /* SigViewController.h */,
+				03668BDD15916DEF00C4F4BC /* SigViewController.m */,
+				03668BDF15916DEF00C4F4BC /* SigViewController.xib */,
+				03668BD115916DEF00C4F4BC /* Supporting Files */,
+			);
+			path = Signature;
+			sourceTree = "<group>";
+		};
+		03668BD115916DEF00C4F4BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03668BD215916DEF00C4F4BC /* Signature-Info.plist */,
+				03668BD315916DEF00C4F4BC /* InfoPlist.strings */,
+				03668BD615916DEF00C4F4BC /* main.m */,
+				03668BD815916DEF00C4F4BC /* Signature-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03668BC515916DEE00C4F4BC /* Signature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03668BE415916DEF00C4F4BC /* Build configuration list for PBXNativeTarget "Signature" */;
+			buildPhases = (
+				03668BC215916DEE00C4F4BC /* Sources */,
+				03668BC315916DEE00C4F4BC /* Frameworks */,
+				03668BC415916DEE00C4F4BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Signature;
+			productName = Signature;
+			productReference = 03668BC615916DEF00C4F4BC /* Signature.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03668BBD15916DEE00C4F4BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Sig;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 03668BC015916DEE00C4F4BC /* Build configuration list for PBXProject "Signature" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03668BBB15916DEE00C4F4BC;
+			productRefGroup = 03668BC715916DEF00C4F4BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03668BC515916DEE00C4F4BC /* Signature */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03668BC415916DEE00C4F4BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03668BD515916DEF00C4F4BC /* InfoPlist.strings in Resources */,
+				03668BE115916DEF00C4F4BC /* SigViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03668BC215916DEE00C4F4BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03668BD715916DEF00C4F4BC /* main.m in Sources */,
+				03668BDB15916DEF00C4F4BC /* SigAppDelegate.m in Sources */,
+				03668BDE15916DEF00C4F4BC /* SigViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03668BD315916DEF00C4F4BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03668BD415916DEF00C4F4BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03668BDF15916DEF00C4F4BC /* SigViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03668BE015916DEF00C4F4BC /* en */,
+			);
+			name = SigViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03668BE215916DEF00C4F4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		03668BE315916DEF00C4F4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03668BE515916DEF00C4F4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Signature/Signature-Prefix.pch";
+				INFOPLIST_FILE = "Signature/Signature-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03668BE615916DEF00C4F4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Signature/Signature-Prefix.pch";
+				INFOPLIST_FILE = "Signature/Signature-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03668BC015916DEE00C4F4BC /* Build configuration list for PBXProject "Signature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03668BE215916DEF00C4F4BC /* Debug */,
+				03668BE315916DEF00C4F4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03668BE415916DEF00C4F4BC /* Build configuration list for PBXNativeTarget "Signature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03668BE515916DEF00C4F4BC /* Debug */,
+				03668BE615916DEF00C4F4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03668BBD15916DEE00C4F4BC /* Project object */;
+}
